@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    body 
+    {
+        background-color: #523A3E;
+    }
+
+    div.title
+    {
+        color: #FFD83F;
+        text-shadow: 5px;
+        font-family: helvetica;
+        font-weight: bold;
+        font-size: 50px;
+    }
+    div.titlepadding
+    {
+        align-items: center;
+        width: 700px;
+        padding: 10px;
+        background-color: #965B2A; 
+        border-radius: 50px;
+        margin-top: 50px;
+		margin-bottom: 50px;
+    }
+    div.build
+    {
+        color: #FFD83F;
+        text-shadow: 5px;
+        font-family: helvetica;
+        font-weight: bold;
+    }
+    div.buildpadding
+    {
+        align-items: center;
+        width: 300px;
+        padding: 10px;
+        background-color: #965B2A; 
+        border-radius: 50px;
+        margin-top: 100px;
+    }
+	div.buildpadding2
+    {
+        align-items: center;
+        width: 300px;
+        padding: 10px;
+        background-color: #965B2A; 
+        border-radius: 50px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    * 
+    {
+        box-sizing: border-box;
+    }
+    .column
+    {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+        font-weight: bold;
+    }
+    .row::after 
+    {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    div.labels
+    {
+        background-color: #965B2A; 
+        border: 5px solid #FFD83F; 
+        color: #FFD83F; 
+        font-weight: bold;
+        width: 180px;
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .pics
+    {
+        position: relative;
+        width: 100%;
+    }
+    .overlay 
+    {
+        position: center;
+        height: 100%;
+        width: 50%;
+        opacity: 0;
+        transition: .5s ease;
+    }
+    .pics:hover .overlay
+    {
+        opacity: 1;
+    }
+
+</style>
+</head>
+<body>
+    <center>
+        <div class = "titlepadding">
+            <div class = "title">MY FIRST COMPUTER</div>
+        </div>
+	</center>	
+	
+	<center>
+	<div class = "buildpadding2">
+            <div class = "build">Componenents needed</div>
+    </div>          
+ 
+	</center>
+	
+	<center>
+        <div class="row">
+            <div class="column">
+                <div class="pics">
+                    <img src="MOTHERBOARD.PNG" alt="ian" style="width:50%"></a>
+                    <div class="overlay">
+                        <a href="https://youtube.com"><div class="labels"><p>MOTHERBOARD</p></div></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="pics">
+                    <a href="https://youtube.com"><img src="CPU.png" alt="ian" style="width:50%"></a>
+                    <div class="overlay">
+                        <div class="labels"><p>CPU</p></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="pics">
+                    <a href="https://youtube.com"><img src="RAM.png" alt="ian" style="width:50%"></a>
+                    <div class="overlay">
+                        <div class="labels"><p>RAM</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="column">
+                <div class="pics">
+                    <img src="DRIVE.png" alt="ian" style="width:50%"></a>
+                    <div class="overlay">
+                        <a href="https://youtube.com"><div class="labels"><p>HDD/SSD</p></div></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="pics">
+                    <a href="https://youtube.com"><img src="PSU.png" alt="ian" style="width:50%"></a>
+                    <div class="overlay">
+                        <div class="labels"><p>PSU</p></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="pics">
+                    <a href="https://youtube.com"><img src="GPU.png" alt="ian" style="width:50%"></a>
+                    <div class="overlay">
+                        <div class="labels"><p>GPU</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="column">
+                <div class="pics">
+                    <img src="CPU COOLER.png" alt="ian" style="width:50%"></a>
+                    <div class="overlay">
+                        <a href="https://youtube.com"><div class="labels"><p>CPU COOLER</p></div></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="pics">
+                    <a href="https://youtube.com"><img src="CASE FANS.png" alt="ian" style="width:50%"></a>
+                    <div class="overlay">
+                        <div class="labels"><p>CASE FANS</p></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="pics">
+                    <a href="https://youtube.com"><img src="MNK.png" alt="ian" style="width:50%"></a>
+                    <div class="overlay">
+                        <div class="labels"><p>KEYBOARD/MOUSE</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="column">
+                <div class="pics">
+                    <img src="CASE FANS.png" alt="ian" style="width:50%"></a>
+                    <div class="overlay">
+                        <a href="https://youtube.com"><div class="labels"><p>CASE COOLER</p></div></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="pics">
+                    <a href="https://youtube.com"><img src="SATA CABLE.png" alt="ian" style="width:50%"></a>
+                    <div class="overlay">
+                        <div class="labels"><p>CABLES</p></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="pics">
+                    <a href="https://youtube.com"><img src="MONITOR.png" alt="ian" style="width:50%"></a>
+                    <div class="overlay">
+                        <div class="labels"><p>MONITOR</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+	</center>	
+	
+
+	<center>
+	<div class = "buildpadding">
+            <div class = "build">HOW TO BUILD A COMPUTER</div>
+    </div>        
+ 
+	</center>
+
+<!--
+    <center>
+        <div class="btn-group">
+            <div class="row">
+                <div class="column">
+                    <a href="https://youtube.com"><button>MOTHERBOARD</button></a>
+                </div>
+                <div class="column">
+                    <a href="https://youtube.com"><button>CPU COOLER</button></a>
+                </div>
+                <div class="column">
+                    <a href="https://youtube.com"><button>CABLES</button></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <a href="https://youtube.com"><button>HDD/SSD</button></a>
+                </div>
+                <div class="column">
+                    <a href="https://youtube.com"><button>HDD/SSD</button></a>
+                </div>
+                <div class="column">
+                    <a href="https://youtube.com"><button>RAM</button></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <a href="https://youtube.com"><button>KEYBOARD/MOUSE</button></a>
+                </div>
+                <div class="column">
+                    <a href="https://youtube.com"><button>FANS</button></a>
+                </div>
+                <div class="column">
+                    <a href="https://youtube.com"><button>POWER SUPPLY</button></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <a href="https://youtube.com"><button>MONITOR</button></a>
+                </div>
+                <div class="column">
+                    <a href="https://youtube.com"><button>ASDFASFAFS</button></a>
+                </div>
+                <div class="column">
+                    <a href="https://youtube.com"><button>ZXCVZVC</button></a>
+                </div>
+            </div>
+
+            <div class = "buildpadding">
+                <div class = "build">HOW TO BUILD A COMPUTER</div>
+            </div>        
+        </div>
+    </center>
+
+
+-->
+
+</body>
+</html>
